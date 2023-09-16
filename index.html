@@ -5,14 +5,55 @@
         background-color:lemonchiffon;
         font-style:oblique;
     }
+    ul{
+    list-style-type: none;
+    margin-right: 200px;
+    padding:0;
+    overflow:hidden;
+    background-color: rgb(176, 79, 14);
+    width: 540px; 
+    position: -webkit-sticky;  
+    position: sticky; 
+    top:0;
+}
+    li{
+        float: left;
+        border-right: 4px solid white;
+    }
+    li a{
+      display: block;
+      color: beige;
+      text-align: center;
+      padding: 14px 16px;
+    }
+    li a:hover{
+        background-color:black;
+    }
+    .container1{
+        border: 2px solid black;
+        background-color:rgb(133, 164, 189);
+        height:380px;
+        width:500px;
+        position: -webkit-sticky;
+        position: sticky;
+        bottom:200;
+        left:650;
+
+    }
+    form.sticky{
+        position: sticky;
+        top:200;
+    }
 </style>
     </head>
     <body>
-        <h1 style="text-align: center; color:brown;">Ramayana</h1>
-        <a href="#Bala Kanda">Bala Kamda</a><br>
-        <a href="#Ayodhya Kanda">Ayodhya Kanda</a><br>
-        <a href="#Aranya Kanda">Aranya Kanda</a><br>
-        <a href="#Kishkindha Kanda">Kishkindha Kanda</a><br>
+        <h1 style="text-align: center; color:rgb(29, 16, 16);">Ramayana</h1>
+        <ul>
+        <li><a href="#Bala Kanda">Bala Kamda</a></li>
+        <li><a href="#Ayodhya Kanda">Ayodhya Kanda</a></li>
+        <li><a href="#Aranya Kanda">Aranya Kanda</a></li>
+        <li><a href="#Kishkindha Kanda">Kishkindha Kanda</a></li>
+        </ul>
         <section id="Bala Kanda">
             <div>
                 <h2>Bala Kanda</h2>
@@ -26,10 +67,37 @@
                     The party then decide to go to attend king Janaka's sacrifice in the kingdom of <i>Mithila</i>, who has a bow that no one has been able to string. Once there, Janaka recounts the history of the famed bow, and informs them that whoever strings the bow will win the hand of his daughter Sītā, whom he had found in the earth when plowing a field. Rāma then proceeds to not only string the bow, but snap it in the process. Rāma marries Sītā; the wedding is celebrated with great festivity in Mithilā and the marriage party returns to Ayodhyā.[24]</p>
             </div>
         </section>
+        <form class="sticky">
+            <div class="container1">
+                <img src="https://th.bing.com/th?id=OIP.stWAWw2BWM1jDIOmXQhPqAHaE2&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" height="30"width="30"style="float:right;margin-right:5px;">
+                <p style="margin-left: 5px;color:crimson;">Hello</p>
+                <span class="time-right" style="float:right;margin-right: 5px;">09:01</span><br>
+                <hr>
+                <img src="https://www.bing.com/th?id=OIP.YgXo1X-3j7OO4EN0H5oI3AHaE8&w=226&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"height="30"width="30"style="margin-left:5px;">
+                <p style="float:right; margin-right: 5px;color: indigo;">Hey! Hi</p><br>
+                <span class="time-left"style="float:left; margin-left:5px;">09:02</span><br>
+                <hr>
+                <img src="https://th.bing.com/th?id=OIP.stWAWw2BWM1jDIOmXQhPqAHaE2&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"height="30"width="30"style="float:right;margin-right:5px;">
+                <p style="margin-left: 5px;color:crimson;">What do you want?</p>
+                <span class="time-right"style="float:right">09:03</span><br>
+                <hr>
+                <img src="https://www.bing.com/th?id=OIP.YgXo1X-3j7OO4EN0H5oI3AHaE8&w=226&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"height="30"width="30"style="margin-left:5px;">
+                <p style="float:right; margin-right: 5px;color: indigo;">I want more info about Ramayana</p><br>
+                <span class="time-left"style="float:left; margin-left:5px;">09:04</span><br>
+                <hr>
+                <img src="https://th.bing.com/th?id=OIP.stWAWw2BWM1jDIOmXQhPqAHaE2&w=308&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"height="30"width="30" style="float:right;margin-right:5px;">
+                <p style="margin-left: 5px;color:crimson;">Sure. I will provide.</p>
+                <span class="time-right"style="float:right margin-right: 5px;">09:05</span><br>
+                <input type="text"name="message">
+                <input type="button" name="Send" value="Send">
+    
+            </div>
+        </form>
+        
         <section id="Ayodhya Kanda">
             <div>
                 <h2>Ayodhya Kanda</h2>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Rama_leaving_for_fourteen_years_of_exile_from_Ayodhya.jpg/493px-Rama_leaving_for_fourteen_years_of_exile_from_Ayodhya.jpg" width="400px" style="float:right margin-right:200px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Rama_leaving_for_fourteen_years_of_exile_from_Ayodhya.jpg/493px-Rama_leaving_for_fourteen_years_of_exile_from_Ayodhya.jpg" height="500"width="400px" style="float:right margin-right:200px;">
             <p style="text-indent: 5px;text-align: justify;">After Rāma and Sītā have been married, an elderly Daśaratha expresses his desire to crown Rāma, to which the Kosala assembly and his subjects express their support. On the eve of the great event Vasishtha tells Rama to perform rituals to his family deity Ranganatha[25] (which is now the presiding deity of the Srirangam Ranganathaswamy temple),[28][29][5] Kaikeyī was happy that Rama was going to become the king, but was later on provoked by Mantharā, a wicked maidservant, to claim two boons that Daśaratha had long ago granted her. Kaikeyī demands Rāma to be exiled into the wilderness for fourteen years, while the succession passes to her son Bharata.
 
                 The heartbroken king, constrained by his rigid devotion to his given word, accedes to Kaikeyī's demands. Rāma accepts his father's reluctant decree with absolute submission and calm self-control which characterizes him throughout the story. He asks Sītā to remain in Ayodhyā, but she convinces him to remain with him in exile. Lakṣmaṇa also resolves to follow his brother into the forest.
@@ -59,5 +127,7 @@
                 However, Sugriva soon forgets his promise and spends his time enjoying his newly gained power. The clever former ape queen Tara (wife of Vali) calmly intervenes to prevent an enraged Lakshmana from destroying the ape citadel. She then eloquently convinces Sugriva to honor his pledge. Sugriva then sends search parties to the four corners of the earth, only to return without success from north, east, and west. The southern search party under the leadership of Angada and Hanuman learns from a vulture named Sampati (elder brother of Jatayu), that Sita was taken to Lanka.</p>
             </div>
         </section>
+        
+       
     </body>
 </html>
